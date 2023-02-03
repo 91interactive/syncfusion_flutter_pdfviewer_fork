@@ -850,7 +850,7 @@ class SfPdfViewerState extends State<SfPdfViewer> with WidgetsBindingObserver {
   double? _otherContextHeight;
   double _maxPdfPageWidth = 0.0;
   final double _minScale = 1;
-  final double _maxScale = 5.0;
+  final double _maxScale = 4.0;
   bool _isScaleEnabled = !kIsDesktop;
   bool _isPdfPageTapped = false;
   bool _isDocumentLoadInitiated = false;
